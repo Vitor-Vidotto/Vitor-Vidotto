@@ -41,7 +41,7 @@
 ---
 ## Activity On GitHub
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Vitor-Vidotto&theme=radical&hide_border=true)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Vitor-Vidotto&theme=radical)](https://git.io/streak-stats)
 
   ---
 ### 🌐 Connect with me:

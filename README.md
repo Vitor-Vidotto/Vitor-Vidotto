@@ -1,4 +1,6 @@
-# Welcome to my GitHub corner – feel free to explore my projects and contributions.
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Vitor+Vidotto!;+Welcome+to+my+Github+corner!;" />
+</h1>
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=vitor-vidotto&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>

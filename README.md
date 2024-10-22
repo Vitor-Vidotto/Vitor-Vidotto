@@ -22,5 +22,7 @@
   <img align="center" alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Vitor-Vidotto/Vitor-Vidotto/output/github-contribution-grid-snake.svg">
 </picture>
 </div>
-  ## 📖 A frase de um desenvolvedor de hoje:
+
+<strong>  ## 📖 Developer Quote </strong>
+
 [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=swift&border=true)](https://github.com/piyushsuthar/github-readme-quotes)

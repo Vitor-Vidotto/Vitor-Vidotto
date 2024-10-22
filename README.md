@@ -39,6 +39,11 @@
 </div>
 
 ---
+## Activity On GitHub
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Vitor-Vidotto&theme=radical&hide_border=true)](https://git.io/streak-stats)
+
+  ---
 ### 🌐 Connect with me:
 <div> 
   <a href="https://instagram.com/soy.vidotto" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>

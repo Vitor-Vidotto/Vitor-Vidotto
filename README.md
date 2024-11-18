@@ -42,7 +42,6 @@
 
 ---
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Vitor-Vidotto&theme=tokyonight-duo&hide_border=true)](https://git.io/streak-stats)
 
 ### 🌐 Connect with me:
 <div> 

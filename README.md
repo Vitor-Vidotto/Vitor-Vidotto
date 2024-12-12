@@ -13,7 +13,7 @@
 ### 🛠️ Technologies I Work With:
 <div style="display: inline_block"><br>
 
-  [![My Techonologies](https://skillicons.dev/icons?i=nextjs,gcp,azure,react,vue,nuxt,flutter,electron,tauri&perline=3)](https://skillicons.dev)
+  [![My Techonologies](https://skillicons.dev/icons?i=nextjs,react,tailwind,vue,nuxt,flutter,electron,tauri,vite&perline=3)](https://skillicons.dev)
 </div>
 
 ---
@@ -34,10 +34,10 @@
 </div>
 
 ---
-## 🧰 Tools
+## Tools
 <div>
 
-  [![My Tools](https://skillicons.dev/icons?i=linux,jenkins,docker,googlecloud,github,git,cypress,jest,kali,&perline=3)](https://skillicons.dev)
+  [![My Tools](https://skillicons.dev/icons?i=linux,jenkins,docker,googlecloud,github,git,cypress,jest,net,&perline=3)](https://skillicons.dev)
 </div>
 
 ---

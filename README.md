@@ -21,7 +21,7 @@
 ### 🧑‍💻 Languages:
 <div style="display: inline_block"><br>
 
-[![My Lenguages](https://skillicons.dev/icons?i=html,css,javascript,typescript,rust,python,bash,c&perline=3)](https://skillicons.dev)
+[![My Lenguages](https://skillicons.dev/icons?i=html,css,javascript,typescript,rust,python,bash,net,c&perline=3)](https://skillicons.dev)
 </div>
 
 

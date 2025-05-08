@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4  # Certifique-se de usar a versão correta
       - uses: yoshi389111/github-profile-3d-contrib@latest
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN}}  # O token necessário para acesso
+          GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}  # Usando o novo token
           USERNAME: ${{ github.repository_owner }}  # Nome de usuário do repositório
       - name: Commit & Push
         run: |

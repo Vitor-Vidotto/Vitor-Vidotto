@@ -15,10 +15,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}  # Usando o novo token
           USERNAME: ${{ github.repository_owner }}  # Nome de usuário do repositório
+      - name: Set up Git credentials
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git config --global credential.helper 'store --file=.git-credentials'
+          echo "https://x-access-token:${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}@github.com" > .git-credentials
       - name: Commit & Push
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
           git add -A .
           if git commit -m "generated"; then
             git push

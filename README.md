@@ -37,18 +37,20 @@ I leverage my robust background as a Full Stack Developer to design scalable arc
 
 ---
 
-## 🏆 GitHub Trophies & Activity
+## 🏆 GitHub Trophies
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=vitor-vidotto&theme=dracula&column=6&no-frame=true&no-bg=true" alt="GitHub Trophies" />
+    <img src="https://github-profile-trophy.vercel.app/?username=Vitor-Vidotto&theme=dracula&column=6" alt="GitHub Trophies" />
   </a>
 </div>
 
 <br>
 
+## 📊 GitHub Activity Graph
+
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vitor-vidotto&theme=dracula&hide_border=true&area=true" alt="GitHub Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vitor-Vidotto&theme=dracula&hide_border=true&area=true" alt="GitHub Activity Graph" />
 </div>
 
 ---

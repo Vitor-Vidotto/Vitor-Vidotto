@@ -1,5 +1,9 @@
+<p align="center">
+  <img src="./ascii-header.svg" alt="Vitor Vidotto ASCII Terminal Banner" width="100%" />
+</p>
+
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Vitor+Vidotto!;+Welcome+to+my+Github+corner!;" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=30&center=true&vCenter=true&width=500&height=50&duration=4000&lines=Hi+There!+👋;+I'm+Vitor+Vidotto!;+Welcome+to+my+Github+corner!;" />
 </h1>
 
 <p align="center">
@@ -19,27 +23,32 @@ I leverage my robust background as a Full Stack Developer to design scalable arc
 
 ---
 
-## 📊 GitHub Stats
+## 🚀 Featured Projects
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=vitor-vidotto&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vitor-vidotto&layout=compact&langs_count=7&theme=dracula&show_icons=true&locale=en&hide=ShaderLab"/>
+
+| Project | Description | Tech Stack | Stars |
+| :--- | :--- | :--- | :---: |
+| 💼 **[Portfolio Vitor Vidotto](https://github.com/Vitor-Vidotto/Portifolio-Vitor-Vidotto)** | Personal developer portfolio showcasing projects and skills | `React` `Next.js` `Tailwind` | ![Stars](https://img.shields.io/github/stars/Vitor-Vidotto/Portifolio-Vitor-Vidotto?style=social) |
+| 🎮 **[Easy CD](https://github.com/Vitor-Vidotto/easy-cd)** | Gaming team cooldown management application | `React` `Rust` `Gaming` | ![Stars](https://img.shields.io/github/stars/Vitor-Vidotto/easy-cd?style=social) |
+| 🔐 **[Encripto](https://github.com/Vitor-Vidotto/encripto)** | High-performance encryption and data security tool | `TypeScript` `Security` `Node` | ![Stars](https://img.shields.io/github/stars/Vitor-Vidotto/encripto?style=social) |
+
 </div>
 
 ---
 
-## 🚀 Featured Projects
+## 🏆 GitHub Trophies & Activity
 
 <div align="center">
-  <a href="https://github.com/Vitor-Vidotto/Portifolio-Vitor-Vidotto">
-    <img height="120em" src="https://github-readme-stats.vercel.app/api/pin/?username=vitor-vidotto&repo=Portifolio-Vitor-Vidotto&theme=dracula&show_icons=true" />
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=vitor-vidotto&theme=dracula&column=6&no-frame=true&no-bg=true" alt="GitHub Trophies" />
   </a>
-  <a href="https://github.com/Vitor-Vidotto/easy-cd">
-    <img height="120em" src="https://github-readme-stats.vercel.app/api/pin/?username=vitor-vidotto&repo=easy-cd&theme=dracula&show_icons=true" />
-  </a>
-  <a href="https://github.com/Vitor-Vidotto/encripto">
-    <img height="120em" src="https://github-readme-stats.vercel.app/api/pin/?username=vitor-vidotto&repo=encripto&theme=dracula&show_icons=true" />
-  </a>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vitor-vidotto&theme=dracula&hide_border=true&area=true" alt="GitHub Activity Graph" />
 </div>
 
 ---

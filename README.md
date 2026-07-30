@@ -37,16 +37,6 @@ I leverage my robust background as a Full Stack Developer to design scalable arc
 
 ---
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Vitor-Vidotto&theme=dracula&column=6" alt="GitHub Trophies" />
-  </a>
-</div>
-
-<br>
-
 ## 📊 GitHub Activity Graph
 
 <div align="center">
@@ -88,6 +78,14 @@ I leverage my robust background as a Full Stack Developer to design scalable arc
   <a href="https://instagram.com/soy.vidotto" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   <a href="mailto:vitor.v.m.tozi@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/vitor-vidotto" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+</div>
+
+---
+
+## 🎧 Dev Vibes & Music
+
+<div align="center">
+  <img src="./vinyl.svg" alt="Spinning Vinyl Record Player" width="100%" />
 </div>
 
 ---

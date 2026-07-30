@@ -1,72 +1,78 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 165" width="100%">
   <defs>
-    <linearGradient id="bg-grad-crimson" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0a0f"/>
-      <stop offset="60%" stop-color="#120914"/>
-      <stop offset="100%" stop-color="#1f0a10"/>
+    <linearGradient id="bg-grad-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050508"/>
+      <stop offset="60%" stop-color="#0f091c"/>
+      <stop offset="100%" stop-color="#180b29"/>
     </linearGradient>
-    <linearGradient id="moon-grad-crimson" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ff2e55" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#7b001c" stop-opacity="0.0"/>
-    </linearGradient>
+    <radialGradient id="moon-grad-purple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#6b21a8" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#050508" stop-opacity="0.0"/>
+    </radialGradient>
   </defs>
 
   <style>
-    .bg { fill: url(#bg-grad-crimson); rx: 10px; stroke: #2a121d; stroke-width: 1px; }
-    .term-header { fill: #0d0b12; rx: 10px; }
-    .dot-red { fill: #ff2e55; }
-    .dot-yellow { fill: #ffb703; }
-    .dot-purple { fill: #9d4edd; }
+    .bg { fill: url(#bg-grad-purple); rx: 10px; stroke: #2a1a3e; stroke-width: 1px; }
+    .term-header { fill: #0a0812; rx: 10px; }
+    .dot-violet { fill: #a855f7; }
+    .dot-cyan { fill: #06b6d4; }
+    .dot-grey { fill: #4b5563; }
     .ascii {
       font-family: 'Courier New', Consolas, monospace;
       font-size: 13px;
       font-weight: bold;
       white-space: pre;
     }
-    .line-1 { fill: #ff4d6d; animation: gothic-pulse-red 3s ease-in-out infinite alternate; }
-    .line-2 { fill: #c77dff; animation: gothic-pulse-red 3s ease-in-out 0.5s infinite alternate; }
-    .line-3 { fill: #e63946; animation: gothic-pulse-red 3s ease-in-out 1s infinite alternate; }
+    .line-1 { fill: #c084fc; animation: gothic-pulse-purple 3s ease-in-out infinite alternate; }
+    .line-2 { fill: #a855f7; animation: gothic-pulse-purple 3s ease-in-out 0.5s infinite alternate; }
+    .line-3 { fill: #7e22ce; animation: gothic-pulse-purple 3s ease-in-out 1s infinite alternate; }
     .subtitle {
       font-family: 'Courier New', Consolas, monospace;
       font-size: 12.5px;
       font-weight: bold;
-      fill: #d1d5db;
+      fill: #cbd5e1;
     }
     .cursor {
       animation: blink 0.8s steps(2, start) infinite;
-      fill: #ff2e55;
+      fill: #a855f7;
     }
     .raven-eye {
-      fill: #ff0033;
-      animation: blink-eye 4s infinite;
+      fill: #00f0ff;
+      animation: blink-eye 4.5s infinite;
     }
-    @keyframes gothic-pulse-red {
+    @keyframes gothic-pulse-purple {
       0% { opacity: 0.8; }
-      100% { opacity: 1; filter: drop-shadow(0 0 6px #ff2e55); }
+      100% { opacity: 1; filter: drop-shadow(0 0 7px #a855f7); }
     }
     @keyframes blink {
       0%, 100% { opacity: 1; }
       50% { opacity: 0; }
     }
     @keyframes blink-eye {
-      0%, 96%, 100% { opacity: 1; }
-      98% { opacity: 0; }
+      0%, 95%, 100% { opacity: 1; }
+      97% { opacity: 0; }
     }
   </style>
 
   <!-- Background -->
   <rect class="bg" width="100%" height="100%" />
 
-  <!-- Crimson Gothic Moon Aura -->
-  <circle cx="665" cy="85" r="58" fill="url(#moon-grad-crimson)" />
+  <!-- Full Gothic Purple Moon & Mist Aura -->
+  <circle cx="665" cy="85" r="65" fill="url(#moon-grad-purple)" />
+  <!-- Spooky stars/mist floating dots -->
+  <circle cx="620" cy="40" r="1" fill="#c084fc" opacity="0.6"/>
+  <circle cx="750" cy="50" r="1.2" fill="#a855f7" opacity="0.5"/>
+  <circle cx="580" cy="120" r="1" fill="#e2e8f0" opacity="0.4"/>
+  <circle cx="730" cy="130" r="1.5" fill="#c084fc" opacity="0.3"/>
 
   <!-- Terminal Window Bar -->
   <path d="M 0 0 L 800 0 L 800 28 L 0 28 Z" class="term-header" />
-  <line x1="0" y1="28" x2="800" y2="28" stroke="#2a121d" stroke-width="1" />
-  <circle class="dot-red" cx="20" cy="14" r="5" />
-  <circle class="dot-yellow" cx="36" cy="14" r="5" />
-  <circle class="dot-purple" cx="52" cy="14" r="5" />
-  <text x="400" y="18" fill="#71717a" font-family="monospace" font-size="11" text-anchor="middle">vitor@gothic-realm:~</text>
+  <line x1="0" y1="28" x2="800" y2="28" stroke="#2a1a3e" stroke-width="1" />
+  <circle class="dot-violet" cx="20" cy="14" r="5" />
+  <circle class="dot-cyan" cx="36" cy="14" r="5" />
+  <circle class="dot-grey" cx="52" cy="14" r="5" />
+  <text x="400" y="18" fill="#64748b" font-family="monospace" font-size="11" text-anchor="middle">vitor@phantom-realm:~</text>
 
   <!-- ASCII Art Body -->
   <g transform="translate(25, 52)">
@@ -80,7 +86,7 @@
   </g>
 
   <!-- Bare Spooky Gothic Tree (Right Side) -->
-  <g class="gothic-tree" fill="#07060a" stroke="#1a1424" stroke-width="0.6">
+  <g class="gothic-tree" fill="#040307" stroke="#1f1633" stroke-width="0.6">
     <!-- Main Trunk -->
     <path d="M 735 165 C 725 140 712 118 692 95 C 686 88 680 78 676 68 C 673 58 675 45 670 30 C 668 27 665 32 667 36 C 670 48 666 58 670 68 C 674 78 680 86 685 94 C 702 118 710 140 718 165 Z" />
     
@@ -101,17 +107,17 @@
     <path d="M 670 32 C 672 24 675 18 676 12 C 676 10 674 10 674 12 C 673 18 670 24 668 31 Z" />
   </g>
 
-  <!-- Detailed Gothic Black Raven Perched on Branch -->
+  <!-- Gothic Black Raven Perched on Branch -->
   <g class="gothic-raven" transform="translate(610, 62)">
     <!-- Claws gripping branch -->
-    <path d="M 12 24 L 10 27 M 14 24 L 14 27 M 16 24 L 18 27" stroke="#050508" stroke-width="1.8" />
+    <path d="M 12 24 L 10 27 M 14 24 L 14 27 M 16 24 L 18 27" stroke="#040307" stroke-width="1.8" />
     <!-- Raven Body & Tail & Head -->
-    <path d="M 4 22 C 0 16 -2 24 -6 28 C -7 29 -5 29 -4 28 C 0 24 4 23 8 22 C 6 18 5 12 8 7 C 10 3 14 1 18 2 C 22 3 24 6 23 9 C 26 8 28 7 31 8 C 29 10 26 11 24 12 C 22 15 20 19 16 22 Z" fill="#09080e" stroke="#251f33" stroke-width="0.8" />
+    <path d="M 4 22 C 0 16 -2 24 -6 28 C -7 29 -5 29 -4 28 C 0 24 4 23 8 22 C 6 18 5 12 8 7 C 10 3 14 1 18 2 C 22 3 24 6 23 9 C 26 8 28 7 31 8 C 29 10 26 11 24 12 C 22 15 20 19 16 22 Z" fill="#07060c" stroke="#2d1c44" stroke-width="0.8" />
     <!-- Wing detail -->
-    <path d="M 10 11 C 7 14 6 18 4 22 C 8 21 12 18 15 14 Z" fill="#141120" />
+    <path d="M 10 11 C 7 14 6 18 4 22 C 8 21 12 18 15 14 Z" fill="#130e21" />
     <!-- Beak -->
-    <path d="M 23 6 Q 29 7 30 9 Q 25 9 22 8 Z" fill="#050508" />
-    <!-- Glowing Red Spooky Eye -->
+    <path d="M 23 6 Q 29 7 30 9 Q 25 9 22 8 Z" fill="#040307" />
+    <!-- Glowing Cyan/Blue Spooky Eye -->
     <circle class="raven-eye" cx="19" cy="5.5" r="1.1" />
   </g>
 </svg>
